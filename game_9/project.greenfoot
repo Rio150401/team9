@@ -1,10 +1,11 @@
 #Greenfoot project file
 class.A.image=kreuz.png
 class.C.image=baby1.png
-editor.fx.0.height=739
-editor.fx.0.width=816
-editor.fx.0.x=552
-editor.fx.0.y=100
+class.D.image=person.png
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
+editor.fx.0.y=0
 height=585
 package.numDependencies=0
 package.numTargets=3
@@ -30,7 +31,11 @@ target1.width=80
 target1.x=0
 target1.y=0
 target2.height=50
+<<<<<<< HEAD
 target2.name=C
+=======
+target2.name=D
+>>>>>>> c7ed008a5e14b3f212dd874df67c294963a202fb
 target2.showInterface=false
 target2.type=ClassTarget
 target2.width=80
@@ -46,5 +51,10 @@ target3.y=0
 version=3.0.0
 width=825
 world.lastInstantiated=MyWorld
+<<<<<<< HEAD
 xPosition=153
 yPosition=205
+=======
+xPosition=137
+yPosition=221
+>>>>>>> c7ed008a5e14b3f212dd874df67c294963a202fb
