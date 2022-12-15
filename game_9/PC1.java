@@ -14,6 +14,21 @@ public class PC1 extends Actor
      */
     public void act() 
     {
-        getImage().scale(100,100);// Add your action code here.
+        getImage().scale(100,100);
+        
+        if( Greenfoot.isKeyDown( "right" ) ){
+        setRotation(180);
+    }
+        if( Greenfoot.isKeyDown( "left" ) ){
+        setRotation(0);
+    }
+        if( Greenfoot.isKeyDown( "up" ) ){
+        setRotation(90);
+    }
+        if( Greenfoot.isKeyDown( "down" ) ){
+        setRotation(270);
+    }
     }    
+    
+    
 }

@@ -6,11 +6,19 @@ class.PC1.image=PC1.png
 dependency1.from=MyWorld
 dependency1.to=PC1
 dependency1.type=UsesDependency
+<<<<<<< HEAD
 editor.fx.0.height=0
 editor.fx.0.width=0
 editor.fx.0.x=0
 editor.fx.0.y=0
 height=1185
+=======
+editor.fx.0.height=739
+editor.fx.0.width=816
+editor.fx.0.x=552
+editor.fx.0.y=100
+height=985
+>>>>>>> 01fd09a29668cc25f8e2894bfe03caf366e30c66
 package.numDependencies=1
 package.numTargets=6
 project.charset=UTF-8
@@ -72,5 +80,10 @@ target6.y=0
 version=3.0.0
 width=1245
 world.lastInstantiated=MyWorld
+<<<<<<< HEAD
 xPosition=696
 yPosition=42
+=======
+xPosition=314
+yPosition=9
+>>>>>>> 01fd09a29668cc25f8e2894bfe03caf366e30c66
