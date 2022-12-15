@@ -1,4 +1,5 @@
 #Greenfoot project file
+class.MyWorld.image=haikei.png
 class.PC1.image=PC1.png
 dependency1.from=MyWorld
 dependency1.to=PC1
@@ -10,7 +11,7 @@ editor.fx.0.height=0
 editor.fx.0.width=0
 editor.fx.0.x=0
 editor.fx.0.y=0
-height=985
+height=1056
 package.numDependencies=2
 package.numTargets=3
 project.charset=UTF-8
@@ -49,7 +50,7 @@ target3.width=80
 target3.x=0
 target3.y=0
 version=3.0.0
-width=1025
+width=1936
 world.lastInstantiated=MyWorld
-xPosition=314
-yPosition=9
+xPosition=0
+yPosition=0
