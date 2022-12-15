@@ -20,6 +20,24 @@ public class MyWorld extends World
         
         
         addObject( new PC1(), 400, 400 );
-        addObject( new ichigo(), 400 , 0  );
+        for (int i=0; i<1; ++i){
+             int A = 0;
+             int B = 800;
+             int x = A + (int)(Math.random()*((B-A)+1));
+             A = 0;
+             B = 450;
+             int y = A + (int)(Math.random()*((B-A)+1));
+            addObject( new ichigo(), x, y);
+        }
+        for (int i=0; i<1; ++i){
+             int A = 0;
+             int B = 800;
+             int x = A + (int)(Math.random()*((B-A)+1));
+             A = 0;
+             B = 450;
+             int y = A + (int)(Math.random()*((B-A)+1));
+            addObject( new cream(), x, y);
+        }
+       
     }
 }
