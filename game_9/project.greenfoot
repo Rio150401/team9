@@ -1,42 +1,20 @@
 #Greenfoot project file
-<<<<<<< HEAD
-=======
-class.B.image=starfish.png
-class.D.image=person.png
 class.MyWorld.image=haikei.png
->>>>>>> cfd834097181d6686268a4fa84d48bc09591b3bd
 class.PC1.image=PC1.png
 class.ichigo.image=ichigo.png
 dependency1.from=MyWorld
 dependency1.to=PC1
 dependency1.type=UsesDependency
-<<<<<<< HEAD
 dependency2.from=MyWorld
 dependency2.to=ichigo
 dependency2.type=UsesDependency
-=======
-<<<<<<< HEAD
 editor.fx.0.height=0
 editor.fx.0.width=0
 editor.fx.0.x=0
 editor.fx.0.y=0
 height=1185
-=======
->>>>>>> cfd834097181d6686268a4fa84d48bc09591b3bd
-editor.fx.0.height=739
-editor.fx.0.width=816
-editor.fx.0.x=552
-editor.fx.0.y=100
-<<<<<<< HEAD
-height=1047
 package.numDependencies=2
 package.numTargets=3
-=======
-height=985
->>>>>>> 01fd09a29668cc25f8e2894bfe03caf366e30c66
-package.numDependencies=1
-package.numTargets=6
->>>>>>> cfd834097181d6686268a4fa84d48bc09591b3bd
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -73,19 +51,7 @@ target3.width=80
 target3.x=0
 target3.y=0
 version=3.0.0
-<<<<<<< HEAD
-width=974
-world.lastInstantiated=MyWorld
-xPosition=953
-yPosition=0
-=======
 width=1245
 world.lastInstantiated=MyWorld
-<<<<<<< HEAD
-xPosition=696
-yPosition=42
-=======
 xPosition=314
 yPosition=9
->>>>>>> 01fd09a29668cc25f8e2894bfe03caf366e30c66
->>>>>>> cfd834097181d6686268a4fa84d48bc09591b3bd
