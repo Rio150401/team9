@@ -21,5 +21,6 @@ public class MyWorld extends World
         
         addObject( new PC1(), 400, 400 );
         addObject( new ichigo(), 400 , 0  );
+        addObject( new danmaku(), 0, 400 );
     }
 }
