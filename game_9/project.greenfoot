@@ -1,4 +1,13 @@
 #Greenfoot project file
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+class.B.image=starfish.png
+class.D.image=person.png
+>>>>>>> f5e452d19b186e539a36101aa24c9aaad4be2bc0
+class.MyWorld.image=haikei.png
+>>>>>>> ccce45b89e4a8e1137071bde199223ff332d441a
 class.PC1.image=PC1.png
 dependency1.from=MyWorld
 dependency1.to=PC1
@@ -6,13 +15,32 @@ dependency1.type=UsesDependency
 dependency2.from=MyWorld
 dependency2.to=ichigo
 dependency2.type=UsesDependency
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> ccce45b89e4a8e1137071bde199223ff332d441a
 editor.fx.0.height=0
 editor.fx.0.width=0
 editor.fx.0.x=0
 editor.fx.0.y=0
+<<<<<<< HEAD
 height=985
 package.numDependencies=2
 package.numTargets=3
+=======
+height=1185
+package.numDependencies=2
+package.numTargets=3
+=======
+editor.fx.0.height=739
+editor.fx.0.width=816
+editor.fx.0.x=552
+editor.fx.0.y=100
+height=1100
+package.numDependencies=2
+package.numTargets=7
+>>>>>>> f5e452d19b186e539a36101aa24c9aaad4be2bc0
+>>>>>>> ccce45b89e4a8e1137071bde199223ff332d441a
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
