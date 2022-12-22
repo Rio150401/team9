@@ -17,17 +17,15 @@ public class MyWorld extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(800, 800, 1);
-        
-        
         addObject( new PC1(), 400, 400 );
-<<<<<<< HEAD
         for (int i=0; i<1; ++i){
-             int A = 0;
-             int B = 800;
-             int x = A + (int)(Math.random()*((B-A)+1));
+             int A = 45;
+             int B = 60;
+             int range = B - A;
+             int x = A + (int)(Math.random()*(range));
              A = 0;
-             B = 450;
-             int y = A + (int)(Math.random()*((B-A)+1));
+             B = 10;
+             int y = A + (int)(Math.random()*(range));
             addObject( new ichigo(), x, y);
         }
         for (int i=0; i<1; ++i){
@@ -37,12 +35,10 @@ public class MyWorld extends World
              A = 0;
              B = 450;
              int y = A + (int)(Math.random()*((B-A)+1));
-            addObject( new cream(), x, y);
+            addObject( new danmaku(), x, y);
         }
-       
-=======
+
         addObject( new ichigo(), 400 , 0  );
-        addObject( new danmaku(), 0, 400 );
->>>>>>> e902d14d785b03efaab56a898e58d8967bbbcfa5
+
     }
 }

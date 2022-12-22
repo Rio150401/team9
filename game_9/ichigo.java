@@ -14,6 +14,6 @@ public class ichigo extends Actor
      */
     public void act() 
     {
-        getImage().scale(50,50);// Add your action code here.
+        // Add your action code here.
     }    
 }
