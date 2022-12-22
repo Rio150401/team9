@@ -17,38 +17,54 @@ public class MyWorld extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(800, 800, 1);
+        
+        int ep=0;
+        
         addObject( new PC1(), 400, 400 );
-        for (int i=0; i<1; ++i){
-             int A = 350;
-             int B = 450;
-             int range = B - A;
-             int x = A + (int)(Math.random()*(range));
-             A = 0;
-             B = 10;
-             int y = A + (int)(Math.random()*(range));
-            addObject( new ichigo(), x, y);
-        }
-          for (int i=0; i<1; ++i){
-             int A = 350;
-             int B = 450;
-             int range = B - A;
-             int x = A + (int)(Math.random()*(range));
-             A = 700;
-             B = 800;
-             int y = A + (int)(Math.random()*(range));
-            addObject( new ichigo(), x, y);
+        while(ep==0){
+            int a = 1;
+            int b = 4;
+            int crd = a + (int)(Math.random()*((b-a)+1));//出現座標の乱数
+            
+            int A = 1;
+            int B = 100;
+            int prb = A + (int)(Math.random()*((B-A)+1));//出現確率の乱数
+            
+            if(prb<=15){
+                switch(crd){
+                    case 1:
+                        addObject( new cream(), 5, 400);//左から出現
+                        //動かすコード
+                    break;
+                
+                    case 2:
+                        addObject( new cream(), 400, 5);//上から出現
+                        //動かすコード
+                    break;
+                
+                    case 3:
+                        addObject( new cream(), 775, 375);//右から出現
+                        //動かすコード
+                    break;
+                
+                    case 4:
+                        addObject( new cream(), 400, 775);//下から出現
+                        //動かすコード
+                    break;
+                   }
+                
+            }
         }
         for (int i=0; i<1; ++i){
              int A = 0;
-             int B = 100;
+             int B = 800;
              int x = A + (int)(Math.random()*((B-A)+1));
-             A = 350;
+             A = 0;
              B = 450;
              int y = A + (int)(Math.random()*((B-A)+1));
-            addObject( new danmaku(), x, y);
+            addObject( new cream(), x, y);
         }
-
-       
-
+        addObject( new ichigo(), 400 , 0  );
+        addObject( new danmaku(), 0, 400 );
     }
 }
