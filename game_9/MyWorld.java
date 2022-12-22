@@ -20,7 +20,6 @@ public class MyWorld extends World
         
         
         addObject( new PC1(), 400, 400 );
-<<<<<<< HEAD
         for (int i=0; i<1; ++i){
              int A = 0;
              int B = 800;
@@ -39,10 +38,8 @@ public class MyWorld extends World
              int y = A + (int)(Math.random()*((B-A)+1));
             addObject( new cream(), x, y);
         }
-       
-=======
         addObject( new ichigo(), 400 , 0  );
         addObject( new danmaku(), 0, 400 );
->>>>>>> e902d14d785b03efaab56a898e58d8967bbbcfa5
+
     }
 }
