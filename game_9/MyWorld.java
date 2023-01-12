@@ -51,20 +51,32 @@ public class MyWorld extends World
                         addObject( new cream(), 400, 775);//下から出現
                         //動かすコード
                     break;
-                   }
-                
+                }
             }
+            
+            else{
+                switch(crd){
+                    case 1:
+                        addObject( new ichigo(), 5, 400);//左から出現
+                        //動かすコード
+                    break;
+                
+                    case 2:
+                        addObject( new ichigo(), 400, 5);//上から出現
+                        //動かすコード
+                    break;
+                
+                    case 3:
+                        addObject( new ichigo(), 775, 375);//右から出現
+                        //動かすコード
+                    break;
+                
+                    case 4:
+                        addObject( new ichigo(), 400, 775);//下から出現
+                        //動かすコード
+                    break;
+                }                
+            }                
         }
-        for (int i=0; i<1; ++i){
-             int A = 0;
-             int B = 800;
-             int x = A + (int)(Math.random()*((B-A)+1));
-             A = 0;
-             B = 450;
-             int y = A + (int)(Math.random()*((B-A)+1));
-            addObject( new cream(), x, y);
-        }
-        addObject( new ichigo(), 400 , 0  );
-        addObject( new danmaku(), 0, 400 );
     }
 }
