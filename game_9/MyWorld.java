@@ -65,15 +65,15 @@ public class MyWorld extends World
                 break;
 
                 case 2:
-                addObject( new ichigo(), 400, 5);//上から出現
+                addObject( new ichigo2(), 400, 5);//上から出現
                 break;
 
                 case 3:
-                addObject( new ichigo(), 775, 375);//右から出現
+                addObject( new ichigo3(), 775, 375);//右から出現
                 break;
 
                 case 4:
-                addObject( new ichigo(), 400, 775);//下から出現
+                addObject( new ichigo4(), 400, 775);//下から出現
                 break;
             }                
         }               
