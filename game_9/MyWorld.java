@@ -56,12 +56,7 @@ public class MyWorld extends World
                 addObject( new cream4(), 400, 775);//下から出現
                 break;
             }
-        }
-
-        addObject( new ichigo(), 400 , 0  );
-        addObject( new danmaku(), 0, 400 );
-
-        
+        }  
         else{
             switch(crd){
                 case 1:
