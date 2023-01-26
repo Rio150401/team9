@@ -57,11 +57,7 @@ public class MyWorld extends World
                 break;
             }
         }
-
-        addObject( new ichigo(), 400 , 0  );
-        addObject( new danmaku(), 0, 400 );
-
-        
+ 
         else{
             switch(crd){
                 case 1:
