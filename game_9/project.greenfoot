@@ -13,6 +13,33 @@ class.lvl2.image=lvl2.png
 dependency1.from=MyWorld
 dependency1.to=PC1
 dependency1.type=UsesDependency
+<<<<<<< HEAD
+=======
+dependency10.from=PC1
+dependency10.to=ichigo
+dependency10.type=UsesDependency
+dependency11.from=PC1
+dependency11.to=ichigo2
+dependency11.type=UsesDependency
+dependency12.from=PC1
+dependency12.to=ichigo3
+dependency12.type=UsesDependency
+dependency13.from=PC1
+dependency13.to=ichigo4
+dependency13.type=UsesDependency
+dependency14.from=PC1
+dependency14.to=cream
+dependency14.type=UsesDependency
+dependency15.from=PC1
+dependency15.to=cream2
+dependency15.type=UsesDependency
+dependency16.from=PC1
+dependency16.to=cream3
+dependency16.type=UsesDependency
+dependency17.from=PC1
+dependency17.to=cream4
+dependency17.type=UsesDependency
+>>>>>>> c569aea7fffe965fa3e0cad8457d6498b2a5ff41
 dependency2.from=MyWorld
 dependency2.to=cream
 dependency2.type=UsesDependency
@@ -37,13 +64,21 @@ dependency8.type=UsesDependency
 dependency9.from=MyWorld
 dependency9.to=ichigo4
 dependency9.type=UsesDependency
-editor.fx.0.height=635
+editor.fx.0.height=785
 editor.fx.0.width=816
+<<<<<<< HEAD
 editor.fx.0.x=1080
 editor.fx.0.y=210
 height=985
 package.numDependencies=9
 package.numTargets=11
+=======
+editor.fx.0.x=1041
+editor.fx.0.y=154
+height=985
+package.numDependencies=17
+package.numTargets=12
+>>>>>>> c569aea7fffe965fa3e0cad8457d6498b2a5ff41
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true

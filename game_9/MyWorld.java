@@ -56,8 +56,12 @@ public class MyWorld extends World
                 addObject( new cream4(), 400, 775);//下から出現
                 break;
             }
+<<<<<<< HEAD
         }
  
+=======
+        }  
+>>>>>>> c569aea7fffe965fa3e0cad8457d6498b2a5ff41
         else{
             switch(crd){
                 case 1:
